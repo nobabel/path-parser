@@ -5,7 +5,13 @@ export default ['es', 'cjs'].map(format => ({
     plugins: [
         typescript({
             useTsconfigDeclarationDir: true,
-            clean: true
+            clean: true,
+            tsconfigOverride: format === 'es' ? {
+                compilerOptions: {
+                    module: 'esnext',
+                    target: 'esnext',
+                },
+            } : undefined,
         })
     ],
     output: {

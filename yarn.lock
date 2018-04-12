@@ -2572,9 +2572,9 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-search-params@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/search-params/-/search-params-2.1.2.tgz#e0107b7e6f2e973d7991b8fbffc8b6664bc96edd"
+"search-params@https://github.com/nobabel/search-params/releases/download/2.1.2-nobabel/search-params-2.1.2-nobabel.tgz":
+  version "2.1.2-nobabel"
+  resolved "https://github.com/nobabel/search-params/releases/download/2.1.2-nobabel/search-params-2.1.2-nobabel.tgz#911740ae775b8c8eb0e3af41bc59c9e85fbced54"
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.5.0:
   version "5.5.0"
